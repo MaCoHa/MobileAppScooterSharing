@@ -33,13 +33,13 @@ import java.util.*
 /**
  * Firebase Realtime Database URL.
  */
-const val DATABASE_URL =
+const val DATABASE_URL = string
  
 
 /**
  * Firebase Storage URL.
  */
-const val BUCKET_STORAGE =
+const val BUCKET_STORAGE = string
 
 
 

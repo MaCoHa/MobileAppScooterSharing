@@ -34,13 +34,13 @@ import java.util.*
  * Firebase Realtime Database URL.
  */
 const val DATABASE_URL =
-    "https://scooter-sharing-coha-default-rtdb.europe-west1.firebasedatabase.app/"
+ 
 
 /**
  * Firebase Storage URL.
  */
 const val BUCKET_STORAGE =
-    "gs://scooter-sharing-coha.appspot.com/"
+
 
 
 fun date_to_String(timestamp: Long?): String {

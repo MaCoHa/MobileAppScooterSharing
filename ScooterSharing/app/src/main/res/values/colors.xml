@@ -1,0 +1,19 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!-- https://m2.material.io/resources/color/#!/?view.left=1&view.right=0&primary.color=00B8FF&secondary.color=ff4800 -->
+<resources>
+  <color name="primaryColor">#00b8ff</color>
+  <color name="primaryLightColor">#6aeaff</color>
+  <color name="primaryDarkColor">#0088cb</color>
+  <color name="secondaryColor">#ff4800</color>
+  <color name="secondaryLightColor">#ff7d3b</color>
+  <color name="secondaryDarkColor">#c30000</color>
+  <color name="primaryTextColor">#000000</color>
+  <color name="secondaryTextColor">#000000</color>
+
+  <color name="icActive">#FFFFFFFF</color>
+
+  <color name="icFocused">#DDFFFFFF</color>
+
+  <color name="icPressed">#AAFFFFFF</color>
+    <color name="white">#FFFFFF</color>
+</resources>

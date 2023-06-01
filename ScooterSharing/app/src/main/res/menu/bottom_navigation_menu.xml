@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/map_action"
+        android:enabled="true"
+        android:icon="@drawable/sharp_map_24"
+        android:title="@string/google_maps"/>
+    <item
+        android:id="@+id/scooter_list"
+        android:enabled="true"
+        android:icon="@drawable/baseline_electric_scooter_24"
+        android:title="@string/list_of_scooters"/>
+    <item
+        android:id="@+id/qr_scanner"
+        android:enabled="true"
+        android:icon="@drawable/sharp_qr_code_24"
+        android:title="@string/scan_qr"/>
+</menu>

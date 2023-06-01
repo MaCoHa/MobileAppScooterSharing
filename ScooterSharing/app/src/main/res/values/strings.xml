@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ScooterSharing</string>
+    <string name="app_Title">Scooter Sharing</string>
+    <string name="Start_Ride">Ride started using Scooter(name=%s, location=%s,timestamp=%s).</string>
+    <string name="Location">Location</string>
+    <string name="Name">Name</string>
+    <string name="Start">Start</string>
+    <string name="Update">Update</string>
+    <string name="Date">Date</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Logout">Logout</string>
+    <string name="Settings">Settings</string>
+    <string name="User">User</string>
+    <string name="list_of_scooters">List of Scooters</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="google_maps">google maps</string>
+    <string name="coordinates">Coordinates</string>
+    <string name="create_scooter">Create Scooter</string>
+    <string name="update_scooter">Update Scooter</string>
+
+    <string name="switch_camera_button_alt">Switch camera</string>
+
+    <string name="capture_button_alt">Capture</string>
+
+    <string name="gallery_button_alt">Gallery</string>
+
+    <string name="back_button_alt">Back</string>
+
+    <string name="last_taken_image_text">Last taken image</string>
+    <string name="save_photo">Save photo</string>
+    <string name="take_photo">take photo</string>
+    <string name="rentScooter">Rent scooter</string>
+    <string name="EndRenting">End ride</string>
+    <string name="retakePicture">Retake image</string>
+    <string name="ParkScooter">Park scooter</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/show_mainFragment">
+
+    <fragment
+        android:id="@+id/show_mainFragment"
+        android:name="dk.itu.moapd.scootersharing.coha.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_show_mainFragment_to_show_startrideFragment"
+            app:destination="@id/show_startrideFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/show_startrideFragment"
+        android:name="dk.itu.moapd.scootersharing.coha.fragments.StartRideFragment"
+        android:label="fragment_start_ride"
+        tools:layout="@layout/fragment_start_ride" />
+    <fragment
+        android:id="@+id/show_updateRideFragment"
+        android:name="dk.itu.moapd.scootersharing.coha.fragments.UpdateRideFragment"
+        android:label="fragment_update_ride"
+        tools:layout="@layout/fragment_update_ride" >
+        <action
+            android:id="@+id/action_show_updateRideFragment_to_show_mainFragment"
+            app:destination="@id/show_mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/show_loginFragment"
+        android:name="dk.itu.moapd.scootersharing.coha.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_show_loginFragment_to_show_mainFragment"
+            app:destination="@id/show_mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/show_googleMapsFragment"
+        android:name="dk.itu.moapd.scootersharing.coha.fragments.GoogleMapsFragment"
+        android:label="GoogleMapsFragment" >
+        <action
+            android:id="@+id/action_show_googleMapsFragment_to_show_mainFragment"
+            app:destination="@id/show_mainFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/show_cameraXPictureFragment"
+        android:name="dk.itu.moapd.scootersharing.coha.fragments.CameraXPictureFragment"
+        android:label="fragment_camera_x_picture"
+        tools:layout="@layout/fragment_camera_x_picture" />
+    <fragment
+        android:id="@+id/show_rentScooterFragment"
+        android:name="dk.itu.moapd.scootersharing.coha.fragments.RentScooterFragment"
+        android:label="fragment_rent_scooter"
+        tools:layout="@layout/fragment_rent_scooter" />
+    <fragment
+        android:id="@+id/show_scooterProfileFragment"
+        android:name="dk.itu.moapd.scootersharing.coha.fragments.ScooterProfileFragment"
+        android:label="ScooterProfileFragment" />
+
+    <fragment
+        android:id="@+id/show_parkScooterFragment"
+        android:name="dk.itu.moapd.scootersharing.coha.fragments.ParkScooterFragment"
+        android:label="ParkScooterFragment" />
+    <fragment
+        android:id="@+id/show_mlkitBarcodeScannerFragment"
+        android:name="dk.itu.moapd.scootersharing.coha.fragments.MlkitBarcodeScannerFragment"
+        android:label="fragment_mlkit_barcode_scanner"
+        tools:layout="@layout/fragment_mlkit_barcode_scanner" />
+
+
+</navigation>
